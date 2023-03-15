@@ -1,0 +1,38 @@
+.navbar-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    .left-navbar{
+        width: 50%;
+        padding-left: 3rem;
+        text-align: left;
+        a{
+            text-decoration: none;
+        }
+        #name-underline{
+            background-color: black;
+            height: 2px;
+            width: 0px;
+        }
+    }
+    .right-navbar{
+        width: 50%;
+        padding-right: 3rem;
+        justify-content: flex-end;
+        display: flex;
+        a{
+            text-decoration: none;
+        }
+        .link-container{
+            // display: flex;
+            // flex-direction: column;
+            margin-right: 2rem;
+            #about-underline, #projects-underline, #contact-underline, #useful-resources-underline{
+                background-color: black;
+                height: 2px;
+                width: 0px;
+            }
+        }
+        
+    }
+}
