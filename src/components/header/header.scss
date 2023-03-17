@@ -1,3 +1,4 @@
+@import "../../App.scss";
 .header-container {
     background-image: url("../../assets/background.gif");
     background-size: cover;
@@ -32,17 +33,19 @@
                 p {
                     text-align: left;
                     font-size: 20px;
+                    color:$first-color;
                 }
-
+                
                 h1 {
-                    color: #FED85C;
+                    // color: #FED85C;
+                    color: $third-color;
                     font-size: 54px;
                 }
-
+                
                 h2 {
                     // color: #04C2C9;
                     font-size: 40px;
-                    color:#5B5E5F ;
+                    color: $second-color;
                 }
 
                 img {

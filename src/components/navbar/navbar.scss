@@ -1,16 +1,21 @@
+@import "../../App.scss";
 .navbar-container{
+    background-color: $first-color;
     display: flex;
     width: 100%;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     .left-navbar{
         width: 50%;
         padding-left: 3rem;
         text-align: left;
         a{
             text-decoration: none;
+            color: $fifth-color;
+            font-weight:600;
         }
         #name-underline{
-            background-color: black;
+            background-color: $fifth-color;
             height: 2px;
             width: 0px;
         }
@@ -22,13 +27,15 @@
         display: flex;
         a{
             text-decoration: none;
+            color: $fifth-color;
+            font-weight:600;
         }
         .link-container{
             // display: flex;
             // flex-direction: column;
             margin-right: 2rem;
             #about-underline, #projects-underline, #contact-underline, #useful-resources-underline{
-                background-color: black;
+                background-color: $fifth-color;
                 height: 2px;
                 width: 0px;
             }

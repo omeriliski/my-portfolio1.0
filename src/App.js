@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import { Navbar, CursorMove, Header, About, Skills, Projects } from './components';
 
 function App() {

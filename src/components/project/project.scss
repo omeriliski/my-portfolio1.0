@@ -1,17 +1,46 @@
+@import "../../App.scss";
+
 .project-container{
     position: absolute;
     left: 33%;
-    top: 15%;
-    padding: 1rem;
+    top: 22%;
+    padding: .5rem .5rem 0 .5rem;
     width:30%;  
+    opacity: .9;
     // height: 200px;
-    background-color: #E4C253;
+    background-color: $fifth-color;
+    // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    // box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;   
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     img{
-        width: 20%;
+        position: relative;
+        bottom: 1.5rem;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        // width: 50%;
         height: auto;
     }
-    h2{
-        margin: 0;
+    .text-container{
+        position: relative;
+        bottom:1rem;
+        h2{
+            margin: 0;
+            margin-bottom: .5rem;
+            font-size: 8px;
+        }
+        p{
+            font-size: 6px;
+            color: $first-color;
+        }
+        .link-container{
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-size: 6px;
+                text-decoration: none;
+            }
+        }
     }
 }
 

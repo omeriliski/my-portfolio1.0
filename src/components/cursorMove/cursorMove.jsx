@@ -103,11 +103,11 @@ const CursorMove = () => {
         // eventlistener for mouse cursor
         // window.addEventListener('mousemove', moveCursor);
         moveCursor2();
-        myHover("name", 75);
-        myHover("about", 43);
-        myHover("projects", 55);
-        myHover("contact", 55);
-        myHover("useful-resources", 120);
+        myHover("name", 70);
+        myHover("about", 37);
+        myHover("projects", 50);
+        myHover("contact", 50);
+        myHover("useful-resources", 110);
 
         // moveCursor2();
 

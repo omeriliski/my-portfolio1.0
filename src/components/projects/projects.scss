@@ -1,35 +1,47 @@
-.projects-container{
-    // width: 100%;
+@import "../../App.scss";
+
+.projects-container {
+    width: 100%;
     // height: 500px;
+    // border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .laptop-container{
-        border: 1px solid red;
-        position: relative;
-        z-index: -1;
-        width: 50%;
-        img{
-            width: 100%;
-            height: auto;
-        }
-        // .screen{
-        //     background-color: brown;
-        //     position: absolute;
-        //     width: 72%;
-        //     height: 70%;
-        //     top:7%;
-        //     left: 14%;
-        //     z-index: 2;
-        // }
-        .projects{
-            // position: absolute;
-            // z-index: 100;
-            // left: 130px;
-            // top: 100px;
-            // width: 600px;
-            // height: 200px;
-            // background-color: gray;
-        }
+    margin-bottom: 3500px;
+    h1{
+        color: $third-color;
     }
+        .laptop-container {
+            position: relative;
+            // border: 1px solid red;
+            z-index: -1;
+            width: 45vw;
+
+            img {
+                // position: absolute;
+                // left: 0;
+                // top: 0;
+                width: 100%;
+                height: auto;
+            }
+
+            // .screen{
+            //     background-color: brown;
+            //     position: absolute;
+            //     width: 72%;
+            //     height: 70%;
+            //     top:7%;
+            //     left: 14%;
+            //     z-index: 2;
+            // }
+            .projects {
+                position: absolute;
+                z-index: 100;
+                left: 150px;
+                top: 50px;
+                width: 400px;
+                height: 200px;
+                // background-color: gray;
+            }
+        }
 }
